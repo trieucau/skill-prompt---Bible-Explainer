@@ -1,25 +1,26 @@
 ---
-name: thumbnail-bible-explainer
-description: Tạo prompt tạo Bible YouTube thumbnail tiếng Anh theo phong cách WATERCOLOR ILLUSTRATION (giống Skill 2 và đối thủ Deep Made Simple) — KHÔNG dùng cinematic photorealistic. Style: watercolor + nền trắng/cream + serif typography (Cinzel/Playfair) + palette navy + burnt orange. Input đơn giản: Title + Script. AI tự đọc script, tự đề xuất 1 trong 6 patterns phù hợp (Every X Explained / Title Statement / Wise vs Foolish / Character Grid / Quote Concept / Icon Row). Output 3 variations dựa trên 3 patterns khác nhau, mỗi variation có 2 versions (visual có text + visual không text để add Canva sau). Tối ưu cho Google Flow (Imagen 4). Trigger: "thumbnail Bible", "Bible thumbnail prompt", "tạo thumb Bible", "Bible YouTube thumbnail", "Flow Bible thumbnail", "Bible explainer thumb", "watercolor thumbnail", "Deep Made Simple thumbnail". Chạy 4 phases sau khi nhận input. Output prompts BẰNG TIẾNG ANH. Kết thúc bằng THUMBNAIL PACKAGE COMPLETE READY FOR DESIGN.
+name: thumbnail-sleep-science
+description: Tạo prompt tạo Sleep Science YouTube thumbnail tiếng Anh theo phong cách WATERCOLOR ILLUSTRATION cho kênh Decoded Sleep — KHÔNG dùng cinematic photorealistic. Style: watercolor + nền trắng/cream + modern serif/sans typography (Outfit Bold / Cinzel) + palette deep navy + soft teal + lavender + warm amber. Input đơn giản: Title + Script. AI tự đọc script, tự đề xuất 1 trong 6 patterns phù hợp (Every X Explained / Title Statement / Contrast / Character Grid / Quote Concept / Icon Row). Output 3 variations dựa trên 3 patterns khác nhau, mỗi variation có 2 versions (visual có text + visual không text để add Canva sau). Tối ưu cho Google Flow (Imagen 4). Trigger: "thumbnail sleep", "sleep thumbnail prompt", "tạo thumb sleep", "sleep YouTube thumbnail", "Flow sleep thumbnail", "Decoded Sleep thumbnail", "watercolor sleep thumbnail". Chạy 4 phases sau khi nhận input. Output prompts BẰNG TIẾNG ANH. Kết thúc bằng THUMBNAIL PACKAGE COMPLETE READY FOR DESIGN.
 ---
 
-# Thumbnail Bible Explainer V2 (Watercolor Style + Pattern-Based)
+# Thumbnail Sleep Science Explainer V1.0 (Watercolor Style + Pattern-Based)
 
-Skill chuyên dụng tạo **prompt cho YouTube thumbnail** Bible Explainer theo phong cách **WATERCOLOR ILLUSTRATION** — match với phong cách video images (Skill 2) và đối thủ viral Deep Made Simple (144K subs).
+Skill chuyên dụng tạo **prompt cho YouTube thumbnail** Sleep Science theo phong cách **WATERCOLOR ILLUSTRATION** — match với phong cách video images (Skill 2) và visual identity của kênh **Decoded Sleep**.
 
-## 🆕 V2 — MAJOR CHANGES FROM V1
+## 🆕 V1.0 — SLEEP SCIENCE THUMBNAIL SYSTEM
 
-| Element | V1 (Wrong) | V2 (Correct) ✅ |
+| Element | Wrong ❌ | Correct ✅ |
 |---|---|---|
-| **Style** | Cinematic photorealistic dark | **Watercolor on white background** |
+| **Style** | Cinematic photorealistic dark | **Watercolor on white/cream background** |
 | **Background** | Dark dramatic full-frame | **White/cream paper with splash** |
-| **Mood** | Movie poster intense | **Friendly storybook educational** |
-| **Typography** | Impact / Bebas Neue (sans-serif) | **Cinzel / Playfair (serif elegant)** |
-| **Input** | Title + Topic + Climax (3 fields) | **Title + Script (2 fields)** |
-| **Pattern** | Variation A/B/C (Face/Moment/Symbol) | **AI picks 1 of 6 proven patterns** |
-| **Output per variation** | 1 version (visual only) | **2 versions (with text + without)** |
+| **Mood** | Horror/thriller intense | **Curious, warm, educational** |
+| **Typography** | Impact / Bebas Neue aggressive | **Outfit Bold / Cinzel (clean + modern)** |
+| **Palette** | Random or neon | **Navy + Teal + Lavender + Amber** |
+| **Input** | Guess from title only | **AI reads full script for context** |
+| **Pattern** | One-size-fits-all | **AI picks 1 of 6 proven patterns** |
+| **Output per variation** | 1 version | **2 versions (with text + without)** |
 
-→ **V2 dùng cùng style với video images** = brand consistency = subscribers nhận ra channel ngay.
+→ **V1.0 keeps visual consistency with video images** = viewers recognize Decoded Sleep channel instantly in YouTube feed.
 
 ---
 
@@ -41,9 +42,11 @@ INPUT 1: VIDEO TITLE
 Tiêu đề chính xác của video bạn muốn tạo thumb.
 
 Ví dụ:
-- "Every Time God Said Fear Not (The Pattern Explained)"
-- "Every Letter the Apostle Paul Wrote, In Order"
-- "Every Time Jesus Wept: He Only Cried 3 Times"
+- "Every Stage of Sleep Explained (And Why Each One Matters)"
+- "Every Effect Caffeine Has On Your Brain — In Order"
+- "What Happens To Your Body If You Don't Sleep For 7 Days"
+- "Why You Dream — Every Theory, Tested"
+- "Every Sign You're Sleep Deprived (Even If You Think You're Fine)"
 
 → Tiêu đề của bạn: _____
 
@@ -51,14 +54,14 @@ Ví dụ:
 
 INPUT 2: FULL SCRIPT
 ─────────────────────────
-Paste TOÀN BỘ script đã viết (từ Skill 1 hoặc bạn tự viết).
+Paste TOÀN BỘ script đã viết (từ Script Skill hoặc bạn tự viết).
 Tôi sẽ đọc script để:
-- Tìm best climax moment
-- Identify main characters
+- Tìm best visual/emotional moment
+- Identify main characters/scientists mentioned
 - Choose pattern phù hợp nhất
-- Design thumbnail có context
+- Design thumbnail có context từ nội dung thực
 
-→ Paste script vào đây: 
+→ Paste script vào đây:
 [paste full script]
 
 ═══════════════════════════════════════════════════════
@@ -82,11 +85,11 @@ Tôi sẽ đọc script để:
 📋 VIDEO TITLE: [user's title]
 📜 SCRIPT: [X words received]
 
-🎨 STYLE: Watercolor Bible Illustration (consistent with video)
+🎨 STYLE: Scientific Watercolor Illustration (consistent with video images)
 📐 BACKGROUND: White/cream paper with watercolor splash
-✍️ TYPOGRAPHY: Cinzel (primary) + Playfair Display (subheader)
-🎨 PALETTE: Deep navy + Burnt orange + Cream + Sepia
-🔢 OUTPUT: 3 variations × 2 versions each (text + no-text)
+✍️ TYPOGRAPHY: Outfit Bold (primary) + Cinzel (alternative elegant option)
+🎨 PALETTE: Deep navy + Teal + Lavender + Warm amber + Cream
+🔢 OUTPUT: 3 variations × 2 versions each (text + no-text) = 6 prompts total
 
 ✅ Confirm? Hoặc bạn muốn điều chỉnh inputs?
 ```
@@ -95,75 +98,80 @@ Tôi sẽ đọc script để:
 
 ---
 
-## 🎨 STYLE GUIDE: "WATERCOLOR BIBLE THUMBNAIL"
+## 🎨 STYLE GUIDE: "DECODED SLEEP WATERCOLOR THUMBNAIL"
 
 ### CORE AESTHETIC (NON-NEGOTIABLE)
 
 ```
-✓ Watercolor painting (SAME style as video images from Skill 2)
+✓ Watercolor painting (SAME style as video images from Image Skill)
 ✓ Hand-drawn black ink outlines (thin, sketchy)
 ✓ White or cream PAPER background dominant
 ✓ Watercolor splash extending from central composition
-✓ Limited palette: burnt orange, deep navy, sepia, cream
-✓ Friendly storybook illustration feel
-✓ Middle Eastern accurate characters
-✓ Brand consistency with video images
+✓ Limited palette: deep navy, soft teal, lavender, warm amber, cream
+✓ Warm, approachable science feel (NOT horror, NOT clinical)
+✓ Modern, diverse characters
+✓ Brand consistency with video images — same visual language
 ```
 
-### EXACT COLOR PALETTE (from competitor analysis)
+### EXACT COLOR PALETTE (Decoded Sleep Brand)
 
 ```
 PRIMARY COLORS:
-- Background:       #F5EBD8 (cream paper) or #FFFFFF (pure white)
-- Primary text:     #1E2A4A (deep navy blue)
-- Accent text:      #B25D29 (burnt orange/rust)
-- Subheader text:   #8B6F47 (warm sepia brown)
+- Background:        #F5EBD8 (cream paper) or #FFFFFF (pure white)
+- Primary text:      #1A2744 (deep midnight navy)
+- Accent text:       #4A9B8E (soft teal / seafoam)
+- Subheader text:    #9B8EC4 (lavender — for dream/REM topics)
+- Warm accent:       #D4A853 (amber — for energy/wake topics)
 
 FIGURE COLORS:
-- Robes:            Navy #2C3E5C, Sepia #8B6F47, Cream #F5EBD8
-- Skin tones:       Warm olive (Middle Eastern)
-- Hair:             Dark brown to black
-- Accents:          Burnt orange #C97A3B for highlights
+- Clothing:         Navy #1A2744, Teal #4A9B8E, Cream #F5EBD8
+- Skin tones:       Warm diverse (not specific ethnicity required)
+- Hair:             Varied — brown, black, blonde (diverse)
+- Science elements: Teal #4A9B8E for brain/wave, Lavender for dreams
 
 SUPPORTING COLORS:
-- Soft grey:        #A89B8C (shadows)
-- Sky blue:         #B8D4E0 (occasional water/sky)
-- Earth brown:      #8B6F47 (ground/architecture)
+- Soft grey-blue:   #8BA7B8 (shadows, NREM depth)
+- Sepia brown:      #8B6F47 (occasional warm accent)
+- Earth tones:      #A89B8C (background depth)
 ```
 
-### TYPOGRAPHY SPECS (CRITICAL — Copy đối thủ chính xác)
+### TYPOGRAPHY SPECS (Decoded Sleep Brand)
 
 ```
 PRIMARY FONT (Main title):
-- Name: CINZEL or CINZEL DECORATIVE (Google Fonts, free)
-- Alternative: PLAYFAIR DISPLAY BOLD (Google Fonts, free)
-- Style: Serif, elegant, biblical feel
-- Weight: Bold or Extra Bold (700-900)
+- Name: OUTFIT EXTRABOLD (Google Fonts, free) ← PRIMARY RECOMMENDATION
+- Alternative: CINZEL BOLD (Google Fonts, free) ← more elegant/premium feel
+- Style: Clean, modern, highly readable at small sizes
+- Weight: ExtraBold or Black (800-900)
 - Case: ALL CAPS
-- Color: Deep navy #1E2A4A
+- Color: Deep navy #1A2744
 - Size: ~120-180pt for primary words
 
-SECONDARY FONT (Subheader like "EXPLAINED"):
-- Same font family as primary (Cinzel/Playfair)
+SECONDARY FONT (Subheader — e.g., "EXPLAINED" / "DECODED"):
+- Same family as primary (Outfit or Cinzel)
 - Lighter weight (500-600)
 - Smaller size: ~70-100pt
-- Color: Burnt orange #B25D29
+- Color: Teal #4A9B8E (default) OR Lavender #9B8EC4 (dream topics) OR Amber #D4A853 (energy topics)
 - Often italic or regular
-- Case: ALL CAPS or Title Case
 
-TERTIARY FONT (Small details like locations):
+TERTIARY FONT (Small detail labels):
 - Same family
 - Regular weight (400)
 - Size: ~30-50pt
-- Color: Navy #1E2A4A or Sepia
-- Used for: Map labels, city names, dates, sub-explanations
+- Color: Navy #1A2744 or Sepia
+- Used for: stage labels ("Stage 3: Deep Sleep"), science terms, timestamps
+
+FONT PAIRING OPTIONS:
+- Option A (Modern): Outfit ExtraBold + Outfit Regular
+- Option B (Premium): Cinzel Bold + Cinzel Regular
+- Option C (Mixed): Outfit ExtraBold primary + Cinzel italic subheader
 ```
 
 ### DOWNLOAD FONTS:
 
 ```
-1. Cinzel: https://fonts.google.com/specimen/Cinzel
-2. Playfair Display: https://fonts.google.com/specimen/Playfair+Display
+1. Outfit: https://fonts.google.com/specimen/Outfit
+2. Cinzel: https://fonts.google.com/specimen/Cinzel
 3. Cinzel Decorative: https://fonts.google.com/specimen/Cinzel+Decorative
 
 All FREE Google Fonts.
@@ -171,157 +179,156 @@ All FREE Google Fonts.
 
 ---
 
-## 📐 THE 6 PROVEN PATTERNS (From Competitor Analysis)
+## 📐 THE 6 PROVEN PATTERNS (Adapted for Sleep Science)
 
-### 🅰️ PATTERN A: "EVERY X EXPLAINED" (40% of viral thumbs)
+### 🅰️ PATTERN A: "EVERY X EXPLAINED" (40% of viral science thumbs)
 
 ```
 LAYOUT:
 ┌─────────────────────────────────────────┐
-│         EVERY [TOPIC]                   │  ← Top 30% — Big serif
-│           EXPLAINED                     │  ← Subheader smaller
+│         EVERY [TOPIC]                   │  ← Top 30% — Big bold text
+│           EXPLAINED                     │  ← Teal subheader smaller
 │                                         │
-│  [Watercolor visual centered/below]     │  ← Main character/object
+│  [Watercolor visual centered/below]     │  ← Main illustration
 │                                         │
 └─────────────────────────────────────────┘
 
 USE WHEN:
 - Title starts with "Every X"
-- Topic is character/object/concept collection
-- Examples: "Every Letter Paul Wrote", "Every Disciple", "Every Tribe"
+- Topic covers multiple stages, effects, or examples
+- Examples: "Every Stage of Sleep", "Every Effect of Caffeine",
+  "Every Sign You're Sleep Deprived"
 
 VISUAL ELEMENTS:
-- Single character (Paul, Jesus, etc.) prominently
-- OR multi-element (map with arrows, scrolls)
-- OR icon grid
+- Sleep cycle illustrated as landscape (stages as terrain)
+- OR illustrated brain with labeled regions
+- OR sequence of 3-4 small icons showing progression
 
-PROVEN EXAMPLES:
-- "EVERY LETTER FROM PAUL EXPLAINED" + Paul + map arrows
-- "EVERY TRIBE OF ISRAEL EXPLAINED" + 12 icons
-- "EVERY DISCIPLE of Jesus explained" + portrait grid
+PROVEN SLEEP EXAMPLES:
+- "EVERY STAGE OF SLEEP EXPLAINED" + sleep cycle landscape illustration
+- "EVERY EFFECT CAFFEINE HAS ON YOUR BRAIN" + illustrated brain with teal waves
+- "EVERY SIGN YOU'RE SLEEP DEPRIVED" + tired face + symptom icons
 ```
 
-### 🅱️ PATTERN B: "TITLE STATEMENT" (25%)
+### 🅱️ PATTERN B: "TITLE STATEMENT / QUESTION" (25%)
 
 ```
 LAYOUT:
 ┌─────────────────────────────────────────┐
 │      [BIG BOLD STATEMENT]               │  ← Top 30-40%
 │                                         │
-│  [Watercolor scene/comparison below]    │  ← Visual telling story
+│  [Watercolor scene below]               │  ← Visual telling story
 │                                         │
 └─────────────────────────────────────────┘
 
 USE WHEN:
-- Title is question or statement (not "Every X")
-- Concept needs visual storytelling
-- Examples: "How Passover Became Easter", "Why Jesus Said Don't Worry"
+- Title is a question or statement (not "Every X")
+- Strong emotional or curiosity hook
+- Examples: "Why You Dream", "What Happens When You Don't Sleep",
+  "The Reason You Wake Up Tired"
 
 VISUAL ELEMENTS:
-- Multi-panel comparison (before/after, then/now)
-- Or storytelling scene
-- Or character + setting
+- Person lying awake in bed, lamp on, dark window
+- OR floating dream sequence (lavender/teal swirls)
+- OR before/after comparison (alert vs exhausted)
 
-PROVEN EXAMPLES:
-- "HOW PASSOVER BECAME EASTER" + 4-panel timeline
-- "WHY JESUS SAID DON'T WORRY" + worried man + birds/flowers
-- "DOES LIFE HAVE MEANING? ECCLESIASTES EXPLAINED" + person walking path
+PROVEN SLEEP EXAMPLES:
+- "WHY YOU DREAM" + swirling lavender dream illustration
+- "WHAT HAPPENS TO YOUR BRAIN AFTER 24 HOURS WITH NO SLEEP" + cracked/dimmed brain
+- "THE REASON YOU WAKE UP TIRED" + sunrise + groggy figure
 ```
 
-### 🅲️ PATTERN C: "CONTRAST/COMPARISON" (10%)
+### 🅲️ PATTERN C: "CONTRAST / BEFORE-AFTER" (10%)
 
 ```
 LAYOUT:
 ┌─────────────────────────────────────────┐
-│  WISE                  |  FOOLISH       │  ← Top — 2 words split
+│  WELL-RESTED        │  SLEEP-DEPRIVED   │  ← Top — 2 words split
 │                                         │
-│  [Left scene]          |  [Right scene] │  ← Visual contrast
+│  [Left: bright]     │  [Right: dim]     │  ← Visual contrast
 │                                         │
 │  [BOTTOM LABEL/TAGLINE]                 │  ← Caption
 └─────────────────────────────────────────┘
 
 USE WHEN:
-- Title implies contrast/comparison
-- Two sides of an argument or parable
-- Examples: "Wise vs Foolish", "Forgiveness Is NOT Reconciliation"
+- Title implies comparison or binary choice
+- Examples: "Good Sleep vs Bad Sleep", "Early Bird vs Night Owl",
+  "Napping: Good or Bad?", "Alcohol and Sleep"
 
 VISUAL ELEMENTS:
-- Split composition (vertical or diagonal)
-- Two contrasting characters or scenes
-- Optional bottom caption box
-
-PROVEN EXAMPLES:
-- "WISE | FOOLISH" + 2 virgins from parable
-- "YOU CAN FORGIVE AND STILL SAY NO" + 2 people at door
+- Split composition (vertical divide)
+- Left: well-rested figure in warm amber light
+- Right: exhausted figure in cool navy shadows
+- Optional center: brain or body illustration divided in two states
 ```
 
-### 🅳️ PATTERN D: "CHARACTER GRID" (10%)
+### 🅳️ PATTERN D: "SCIENCE DIAGRAM" (10%)
 
 ```
 LAYOUT:
 ┌─────────────────────────────────────────┐
-│       EVERY [PEOPLE GROUP]              │  ← Header
-│           EXPLAINED                     │
+│       [TOPIC TITLE]                     │  ← Header
 │                                         │
-│   [grid of 6-12 character portraits]   │  ← Multi-figure grid
+│   [Illustrated diagram/chart]           │  ← Central science visual
+│   [Label 1] [Label 2] [Label 3]         │
 │                                         │
 └─────────────────────────────────────────┘
 
 USE WHEN:
-- Topic about multiple people/groups
-- Examples: "Every Disciple", "Every Apostle", "Every Prophet"
+- Topic is a mechanism or cycle (circadian rhythm, sleep stages, REM cycles)
+- Visual diagram IS the explanation
 
 VISUAL ELEMENTS:
-- 6-12 portraits in grid (2×3, 3×4, etc.)
-- Each portrait in same watercolor style
-- Subtle differences (age, hair, features)
+- Sleep cycle illustrated as waves or landscape
+- Circadian clock as 24-hour illustrated arc
+- Brain cross-section with labeled regions
+- Adenosine buildup as filling container diagram
 ```
 
-### 🅴️ PATTERN E: "QUOTE/CONCEPT BLOCK" (10%)
+### 🅴️ PATTERN E: "QUOTE / SHOCKING STAT" (10%)
 
 ```
 LAYOUT:
 ┌─────────────────────────────────────────┐
-│   [SHORT QUOTE OR CONCEPT]              │  ← Top
-│   [HIGHLIGHT WORD IN ORANGE]            │
+│   [SHORT SHOCKING STAT OR QUOTE]        │  ← Top
+│   [HIGHLIGHT NUMBER IN TEAL/AMBER]      │
 │                                         │
-│  [Watercolor scene supporting concept]  │
+│  [Watercolor scene supporting stat]     │
 │                                         │
 └─────────────────────────────────────────┘
 
 USE WHEN:
-- Title is statement/quote
-- Counterintuitive concept
-- Examples: "You Can Forgive and Still Say No"
+- Title contains a surprising number or counterintuitive claim
+- Examples: "You Need 8 Hours (It's Not What You Think)",
+  "90% of People Are Sleep Deprived", "Sleep Deprivation = Drunk Driving"
 
 VISUAL ELEMENTS:
-- Storytelling watercolor scene
-- Often modern setting (relatable)
-- Characters in everyday situations
+- Clean watercolor scene with prominent number
+- Teal accent for the shocking statistic
+- Simple illustration supporting the claim
 ```
 
-### 🅵️ PATTERN F: "ICON ROW WITH LABELS" (5%)
+### 🅵️ PATTERN F: "ICON ROW / PROGRESSION" (5%)
 
 ```
 LAYOUT:
 ┌─────────────────────────────────────────┐
 │      [TOPIC TITLE]                      │  ← Top
 │                                         │
-│   [Icon 1] → [Icon 2] → [Icon 3]        │  ← Process/progression
-│   Label    Label       Label            │  ← Concept words
+│   [Stage 1] → [Stage 2] → [Stage 3]     │  ← Process/progression
+│   N1 Light    N2 Sleep    N3 Deep REM   │  ← Labels
 │                                         │
 └─────────────────────────────────────────┘
 
 USE WHEN:
-- Title about progression/sequence
-- Concept-driven, educational
-- Examples: "The Promises of God" (Waiting → Fear → Grief)
+- Title about sequence/stages/progression
+- Sleep cycle stages, effects building up, hour-by-hour breakdown
 
 VISUAL ELEMENTS:
-- 3-5 watercolor icons/scenes in row
-- Arrows or dashes connecting
-- Text labels (often with Hebrew/Greek words)
-- Sometimes original-language transliteration
+- 3-5 watercolor mini-illustrations in a row
+- Arrows or flow lines connecting them
+- Science stage labels
+- Sleep specific: N1 → N2 → N3 → REM cycle icons
 ```
 
 ---
@@ -352,17 +359,17 @@ For EACH of 3 chosen patterns, output:
 
 # ROLE
 
-You are a professional watercolor illustrator and YouTube thumbnail designer specializing in Bible explainer content. You have studied the viral thumbnails of Deep Made Simple (144K subs), Bible Made Simple, and Plain Truth, and you have internalized their visual signature:
+You are a professional watercolor illustrator and YouTube thumbnail designer for **Decoded Sleep**, a science explainer channel. You have studied the visual language of successful science YouTube channels (Kurzgesagt, What I've Learned, Huberman Lab clips) and you have built Decoded Sleep's own signature:
 
 - Watercolor illustration on white/cream paper background
 - Hand-drawn ink outlines
-- Limited palette: burnt orange + deep navy + cream + sepia
-- Cinzel/Playfair serif typography in deep navy
-- Burnt orange accent for "EXPLAINED" subheaders
-- Storybook educational feel (NOT cinematic dark)
+- Limited palette: deep navy + soft teal + lavender + warm amber + cream
+- Outfit Bold / Cinzel typography in deep navy
+- Teal or lavender accent for explainer subheaders
+- Warm, curious, approachable feel (NOT dark, NOT alarming)
 - 6 layout patterns rotated for variety
 
-**CRITICAL:** Thumbnail PHẢI dùng SAME watercolor style với video images. Brand consistency = viewers recognize channel instantly.
+**CRITICAL:** Thumbnail MUST use SAME watercolor style as video images. Brand consistency = viewers recognize Decoded Sleep instantly in YouTube feed.
 
 **ALL PROMPTS OUTPUT IN ENGLISH.**
 
@@ -382,16 +389,18 @@ SCRIPT LENGTH: [X words]
 
 KEY ELEMENTS IDENTIFIED:
 
-📌 MAIN CHARACTERS (named in script):
-- [Character 1]: [Role, appears X times]
-- [Character 2]: [Role, appears X times]
-- [Character 3]: [Role, appears X times]
+📌 MAIN CHARACTERS / PEOPLE (mentioned in script):
+- [Name]: [Role, e.g., "Matthew Walker — sleep researcher, appears as authority figure"]
+- [Name]: [Role]
 
-🎬 EMOTIONAL CLIMAX MOMENT:
-[Brief description of the most dramatic moment from script]
+🎬 MOST VISUAL MOMENT IN SCRIPT:
+[Brief description of the most visually compelling moment — the scene a viewer would want to see illustrated]
+
+😮 MOST SURPRISING FACT / HOOK:
+[The single most shocking or counterintuitive thing in this video]
 
 🎯 CORE PROMISE OF VIDEO:
-[What the title promises viewers will learn]
+[What the title and script promise viewers will understand by the end]
 
 🎨 SUGGESTED VARIATIONS (3 patterns):
 
@@ -408,25 +417,25 @@ WHY: [Third distinct approach]
 ### Pattern Selection Logic:
 
 ```
-IF title starts with "Every X" 
-   AND content is character-focused
+IF title starts with "Every X"
+   AND content covers multiple stages/effects/examples
    → Pattern A (Every X Explained)
-   
+
 IF title is a question/statement
-   AND content tells a story
+   AND content tells a science story
    → Pattern B (Title Statement)
-   
-IF content compares 2 things (wise/foolish, then/now)
-   → Pattern C (Contrast/Comparison)
-   
-IF topic is multiple people/things (12 tribes, 12 disciples)
-   → Pattern D (Character Grid)
-   
-IF title is counterintuitive concept
-   → Pattern E (Quote/Concept Block)
-   
-IF content is about progression/sequence/process
-   → Pattern F (Icon Row)
+
+IF content compares two states (sleep/no sleep, then/now, good/bad)
+   → Pattern C (Contrast/Before-After)
+
+IF topic is a mechanism or cycle (circadian, sleep stages, REM)
+   → Pattern D (Science Diagram)
+
+IF title contains shocking stat or counterintuitive claim
+   → Pattern E (Quote/Shocking Stat)
+
+IF content is about progression or sequence (stages, hours, steps)
+   → Pattern F (Icon Row/Progression)
 
 → Always pick 3 DIFFERENT patterns for the 3 variations
    (so user can A/B test which works best)
@@ -445,36 +454,37 @@ CONCEPT NAME: [Short descriptive name]
 
 VISUAL CONCEPT:
 [Detailed description of what the watercolor shows]
-- Main subject/character: [description]
-- Action/pose: [what they're doing]
-- Setting: [where, with what props]
-- Secondary elements: [supporting details]
+- Main subject/element: [description]
+- Action/composition: [what's happening]
+- Setting: [bedroom / brain / abstract science / outdoors / etc.]
+- Secondary elements: [supporting science details]
 - Composition layout: [top/bottom/left/right placement]
+- Science illustration element: [any brain, wave, molecule, clock element]
 
 TEXT OVERLAY DESIGN:
 - Primary text: "[EXACT WORDS for big text]"
 - Position: [top center / top left / etc.]
-- Font: Cinzel Bold or Playfair Display Bold
+- Font: Outfit ExtraBold or Cinzel Bold
 - Size: ~140-180pt
-- Color: Deep navy #1E2A4A
+- Color: Deep navy #1A2744
 - Case: ALL CAPS
 
 - Subheader text: "[EXACT WORDS for smaller text]"
 - Position: [below primary / right of primary]
 - Font: Same family, lighter weight
-- Size: ~70-100pt  
-- Color: Burnt orange #B25D29
-- Case: ALL CAPS
+- Size: ~70-100pt
+- Color: Teal #4A9B8E (default) / Lavender #9B8EC4 (dream) / Amber #D4A853 (energy)
+- Case: ALL CAPS or Title Case
 
-- Optional small text: "[Locations/dates/details if any]"
+- Optional small text: "[Stage labels / stats / names if any]"
 - Font: Same family, regular weight
 - Size: ~40-50pt
-- Color: Navy or Sepia
+- Color: Navy or Teal
 
 COLOR PALETTE:
 - Background: Cream #F5EBD8 (with watercolor splash)
 - Primary subject colors: [list 3-4 colors]
-- Accent: Burnt orange #B25D29
+- Accent: [Teal / Lavender / Amber — based on topic mood]
 ```
 
 ---
@@ -488,24 +498,24 @@ For EACH variation, output BOTH versions:
 
 🎨 GOOGLE FLOW PROMPT (English) — Try text in image:
 
-A watercolor illustration in modern Bible storybook style designed as a 
-YouTube thumbnail for a Bible explainer video. The composition shows 
-[detailed visual description]. At the top of the image, in large bold 
-serif typography (Cinzel-style), the text "[PRIMARY TEXT]" in deep navy 
-blue. Below it, smaller serif text "[SUBHEADER]" in burnt orange. The 
-entire composition sits on a cream-colored paper background with 
-watercolor splash extending around the central elements, leaving 
-generous space at the edges. Soft watercolor washes in a limited palette 
-of burnt orange, deep navy blue, warm sepia brown, and cream. Thin 
-hand-drawn black ink outlines define the figures and details. Hand-painted 
-watercolor with visible paper texture, friendly storybook illustration 
-quality, 16:9 horizontal composition optimized for YouTube thumbnail 
-(1280x720). Educational Bible illustration aesthetic.
+A watercolor illustration in modern science storybook style designed as a
+YouTube thumbnail for a sleep science explainer video titled "[TITLE]".
+The composition shows [detailed visual description]. At the top of the
+image, in large bold modern typography (Outfit-style sans-serif or
+Cinzel-style serif), the text "[PRIMARY TEXT]" in deep midnight navy.
+Below it, smaller text "[SUBHEADER]" in soft teal. The entire composition
+sits on a cream-colored paper background with watercolor splash extending
+around the central elements, leaving generous white space at the edges.
+Soft watercolor washes in a limited palette of deep midnight navy,
+soft teal, lavender, and warm amber. Thin hand-drawn black ink outlines
+define the figures and details. Hand-painted watercolor with visible
+paper texture, friendly science storybook illustration quality,
+16:9 horizontal composition optimized for YouTube thumbnail (1280x720).
+Warm, approachable, educational illustration aesthetic.
 
-❌ NEGATIVE: no photorealistic, no oil painting, no dark cinematic, no 
-full-frame dark background, no CGI, no Disney cartoon, no European 
-features for Middle Eastern characters, no anachronisms, no modern 
-objects in biblical scenes
+❌ NEGATIVE: no photorealistic, no oil painting, no dark cinematic, no
+full-frame dark background, no CGI, no anime, no clinical medical style,
+no cold sterile look, no horror aesthetic, no anachronisms
 
 ⚠️ WARNING: AI may produce gibberish text. If text looks bad, use Version 2.
 
@@ -513,42 +523,41 @@ objects in biblical scenes
 
 🎨 GOOGLE FLOW PROMPT (English) — Visual only:
 
-A watercolor illustration in modern Bible storybook style designed as a 
-YouTube thumbnail for a Bible explainer video. The composition shows 
-[detailed visual description, same as Version 1 but EXCLUDING text 
-elements]. IMPORTANT: This image should have NO TEXT, NO LETTERS, NO 
-WORDS — leave the top 35-40% of the frame as clean empty space (cream 
-paper background with subtle watercolor wash) to allow text to be added 
-later in post-production. The entire composition sits on a cream-colored 
-paper background with watercolor splash. Soft watercolor washes in a 
-limited palette of burnt orange, deep navy blue, warm sepia brown, and 
-cream. Thin hand-drawn black ink outlines. Hand-painted watercolor with 
-visible paper texture, friendly storybook illustration quality, 16:9 
-horizontal composition optimized for YouTube thumbnail (1280x720).
+A watercolor illustration in modern science storybook style designed as a
+YouTube thumbnail for a sleep science explainer video. The composition
+shows [detailed visual description, same as Version 1 but EXCLUDING text
+elements]. IMPORTANT: This image should have NO TEXT, NO LETTERS, NO
+WORDS — leave the top 35-40% of the frame as clean empty space (cream
+paper background with subtle watercolor wash) to allow text to be added
+later in post-production. The entire composition sits on a cream-colored
+paper background with watercolor splash. Soft watercolor washes in a
+limited palette of deep midnight navy, soft teal, lavender, and warm
+amber. Thin hand-drawn black ink outlines. Hand-painted watercolor with
+visible paper texture, friendly science storybook illustration quality,
+16:9 horizontal composition optimized for YouTube thumbnail (1280x720).
 
-❌ NEGATIVE: no text, no letters, no words, no typography, no captions, 
-no labels, no photorealistic, no oil painting, no dark cinematic, no 
-CGI, no Disney cartoon, no European features for Middle Eastern 
-characters
+❌ NEGATIVE: no text, no letters, no words, no typography, no captions,
+no labels, no photorealistic, no oil painting, no dark cinematic, no
+CGI, no anime, no clinical medical style, no cold sterile look
 
 📝 CANVA TEXT INSTRUCTIONS:
 1. Open Canva, create 1280×720 design
 2. Upload generated watercolor as background
 3. Add text layer at top:
    - Text: "[PRIMARY TEXT]"
-   - Font: Cinzel Bold (download from Google Fonts)
+   - Font: Outfit ExtraBold (download from Google Fonts) OR Cinzel Bold
    - Size: 140-180pt
-   - Color: #1E2A4A (deep navy)
-   - Position: [as specified]
+   - Color: #1A2744 (deep midnight navy)
+   - Position: [as specified in Variation Design]
 4. Add subheader text:
    - Text: "[SUBHEADER]"
-   - Font: Cinzel Regular or Playfair Italic
+   - Font: Outfit Bold or Cinzel Regular
    - Size: 70-100pt
-   - Color: #B25D29 (burnt orange)
+   - Color: #4A9B8E (teal) / #9B8EC4 (lavender) / #D4A853 (amber)
    - Position: [as specified]
 5. Add optional small text if needed:
    - Font: Same family, smaller size
-   - Color: Navy or Sepia
+   - Color: Navy or Teal
 6. Export as PNG, 1280×720
 ```
 
@@ -581,12 +590,12 @@ WORKFLOW FOR USER:
 □ Open Canva, create 1280×720 design
 □ Upload Version 2 watercolor as background
 □ Add text per specifications above
-□ Use Cinzel font (free download from Google Fonts)
+□ Use Outfit ExtraBold or Cinzel font (free from Google Fonts)
 □ Export PNG
 
 ═══ STEP 3: A/B TEST ═══
 □ Upload all 3 variations to YouTube "Test & Compare"
-□ Let YouTube test 7-14 days
+□ Let YouTube test 7–14 days
 □ Apply winner pattern to future videos
 
 ═══ POSTAGE STAMP TEST ═══
@@ -594,6 +603,7 @@ For each finished thumbnail:
 □ View at 1/8 size (~160×90 pixels)
 □ Can you tell what video is about?
 □ Is text readable?
+□ Does it look warm and approachable (NOT dark/scary)?
 □ If YES → ready to upload
 □ If NO → increase text size, simplify visual
 
@@ -620,12 +630,13 @@ After checklist, output EXACTLY:
 | Variations generated | Exactly 3 (different patterns) |
 | Versions per variation | 2 (with-text + no-text) |
 | Total prompts output | 6 (3×2) |
-| Style | 100% watercolor (NOT cinematic) |
+| Style | 100% watercolor (NOT cinematic dark) |
 | Background | Cream/white (NOT dark) |
-| Typography | Cinzel/Playfair serif |
-| Primary color | Deep navy #1E2A4A |
-| Accent color | Burnt orange #B25D29 |
+| Typography | Outfit ExtraBold or Cinzel serif |
+| Primary color | Deep navy #1A2744 |
+| Accent color | Teal #4A9B8E / Lavender #9B8EC4 / Amber #D4A853 |
 | Pattern selection | AI auto-picks from 6 patterns |
+| Sleep science appropriate | Yes — no horror, no clinical |
 | Output language | English only |
 
 ---
@@ -633,48 +644,62 @@ After checklist, output EXACTLY:
 ## 🚨 FAILURE MODES TO AVOID
 
 1. **Wrong Style** — Thumbnail MUST be watercolor, NOT cinematic dark
-2. **Wrong Background** — White/cream paper, NOT full-frame dark
-3. **Wrong Font** — Cinzel/Playfair SERIF, NOT Impact sans-serif
-4. **Skip Pattern Selection** — Must analyze script and pick 3 distinct patterns
-5. **Only 1 Version** — Must output BOTH with-text AND no-text for each variation
-6. **Missing Canva Specs** — No-text version MUST include detailed Canva instructions
-7. **Wrong Color** — Use exact hex codes (#1E2A4A navy, #B25D29 orange)
-8. **Photorealistic Slip** — Always emphasize "watercolor + ink outlines"
-9. **Full-Frame Visual** — Must leave white space for text (top 35-40%)
-10. **Generic Output** — Must reference specific characters/moments from script
+2. **Wrong Background** — White/cream paper, NOT full-frame dark or black
+3. **Wrong Font** — Outfit/Cinzel modern, NOT Impact sans-serif aggressive
+4. **Wrong Palette** — Navy + Teal + Lavender + Amber, NOT random colors
+5. **Skip Pattern Selection** — Must analyze script and pick 3 distinct patterns
+6. **Only 1 Version** — Must output BOTH with-text AND no-text for each variation
+7. **Missing Canva Specs** — No-text version MUST include detailed Canva instructions
+8. **Horror Aesthetic** — Sleep science should feel CURIOUS and WARM, not scary
+9. **Clinical/Medical** — Watercolor storybook, NOT hospital manual diagram
+10. **Generic Output** — Must reference specific science content/moments from script
+11. **Wrong Color** — Use exact hex codes (#1A2744 navy, #4A9B8E teal, #9B8EC4 lavender, #D4A853 amber)
+12. **Full-Frame Visual** — Must leave white space for text (top 35-40%)
 
 ---
 
 ## 🎯 PRO TIPS FOR USER
 
 ```
-💡 Tip 1: Brand consistency wins:
-   - Thumb watercolor matching video watercolor = subscribers spot 
-     your channel instantly in feed
-   - Deep Made Simple's 144K subs prove this strategy
+💡 Tip 1: Brand consistency is everything:
+   - Watercolor thumbnail matching watercolor video images
+   = subscribers spot Decoded Sleep instantly in YouTube feed
+   - This is the #1 factor in channel recognition and subscriber growth
 
 💡 Tip 2: Version 1 vs Version 2 strategy:
-   - Try Version 1 first (faster if text comes out)
-   - 30% of time AI text is clean → use it
-   - 70% of time text is gibberish → switch to Version 2
-   - Build up library of "clean" Version 1 outputs
+   - Try Version 1 first (AI text — faster if it works)
+   - ~30% of time AI text is clean → use it
+   - ~70% of time text is gibberish → switch to Version 2
+   - Build up a library of "clean text" outputs over time
 
-💡 Tip 3: Cinzel font is FREE:
-   - Download: fonts.google.com/specimen/Cinzel
+💡 Tip 3: Outfit ExtraBold font is FREE:
+   - Download: fonts.google.com/specimen/Outfit
    - Install in Windows/Mac
-   - Use in Canva (search "Cinzel" in font picker)
+   - Available in Canva (search "Outfit" in font picker)
+   - Feels modern, scientific, trustworthy — perfect for sleep science
 
-💡 Tip 4: Save winning templates:
+💡 Tip 4: Color accent tells the viewer the mood:
+   - Teal accent (#4A9B8E) → science, brain, mechanism videos
+   - Lavender accent (#9B8EC4) → dream, REM, mystery videos
+   - Amber accent (#D4A853) → energy, alertness, caffeine, morning videos
+   - Match the accent to the topic emotion
+
+💡 Tip 5: Save winning templates:
    - When a thumbnail gets 7%+ CTR
    - Save the Canva file as template
-   - Reuse layout for future videos
+   - Reuse layout for future similar videos
    - Builds your "house style" over time
 
-💡 Tip 5: Watch competitor weekly:
-   - Subscribe to Deep Made Simple, Bible Made Simple
-   - Note when they change patterns
+💡 Tip 6: Watch competitor thumbnails weekly:
+   - Subscribe to What I've Learned, Huberman Lab clips, AsapSCIENCE
+   - Note when they test new visual styles
    - Adapt without copying directly
    - First to use new pattern in niche = advantage
+
+💡 Tip 7: The "postage stamp test" is not optional:
+   - YouTube mobile = tiny thumbnail
+   - If it doesn't read at 160×90px → redesign
+   - Text must be bold and large enough to read at small size
 ```
 
 ---
@@ -682,29 +707,29 @@ After checklist, output EXACTLY:
 ## 🎬 EXAMPLE INTERACTION
 
 ```
-USER: "Tạo thumbnail cho video Every Time Jesus Wept"
+USER: "Tạo thumbnail cho video Every Stage of Sleep Explained"
 
-CLAUDE: [Output 2 input questions]
+AI: [Output 2 input questions]
 
 USER:
-"1: Every Time Jesus Wept: He Only Cried 3 Times (Each Means Something)
- 2: [Full script paste, 3,750 words]"
+"1: Every Stage of Sleep Explained (And Why Each One Matters)
+ 2: [Full script paste, 3,750 words about N1/N2/N3/REM stages]"
 
-CLAUDE: [Confirm inputs, then run 4 phases]
+AI: [Confirm inputs, then run 4 phases]
 
 ═══ PHASE 1: SCRIPT ANALYSIS ═══
 
-CHARACTERS IDENTIFIED:
-- Jesus (main, appears throughout)
-- Mary & Martha (Lazarus story)
-- Disciples (background)
-
-CLIMAX: Jesus prostrated in Gethsemane crying tears like blood
+KEY ELEMENTS:
+- Science focus: 4 sleep stages (N1, N2, N3, REM) + sleep cycle
+- Named people: Matthew Walker, Randy Gardner (sleep deprivation case)
+- Most visual moment: Sleep cycle illustrated as rolling terrain landscape
+- Most surprising fact: Glymphatic system cleans brain ONLY during deep sleep
+- Core promise: Viewer understands what their brain does each night
 
 SUGGESTED 3 PATTERNS:
-- Variation A → Pattern A (Every X Explained) — fits "Every Time" title
-- Variation B → Pattern E (Quote/Concept) — emphasize emotional weight
-- Variation C → Pattern F (Icon Row) — 3 weepings as progression
+- Variation A → Pattern A (Every X Explained) — fits "Every Stage" title perfectly
+- Variation B → Pattern D (Science Diagram) — sleep cycle as landscape illustration
+- Variation C → Pattern F (Icon Row) — N1 → N2 → N3 → REM progression icons
 
 ═══ PHASE 2-3: Generate 6 prompts (3 variations × 2 versions) ═══
 
@@ -715,13 +740,17 @@ SUGGESTED 3 PATTERNS:
 
 ---
 
-## 🙏 FINAL NOTE
+## 🌙 FINAL NOTE
 
-V2 đã fix vấn đề cốt lõi: dùng SAME watercolor style với video images. Brand consistency là yếu tố quan trọng nhất cho subscriber growth.
+V1.0 was built on one core insight: **Sleep science thumbnails fail when they try to be scary or clinical.**
 
-6 patterns đã được verify từ 18+ thumbnails đối thủ viral. AI sẽ auto-pick 3 patterns khác nhau mỗi lần generate để bạn A/B test.
+The successful sleep science channels — the ones with millions of views — make sleep feel like a WONDER. A mystery you want to solve. A superpower you're not using correctly. A gentle emergency you didn't know you had.
 
-Workflow Version 1 (text trong AI) → Version 2 (text trong Canva) cho phép bạn nhanh khi may mắn (text AI clean) hoặc chắc chắn (text trong Canva).
+Our thumbnails should feel like the cover of a beautiful science book you'd actually want to read. Warm. Curious. Inviting.
+
+6 patterns verified from analysis of top-performing sleep science content thumbnails. AI will auto-pick 3 different patterns each time to give you the best A/B testing options.
+
+Workflow: Version 1 (AI text) → Version 2 (Canva text) gives you speed when lucky and reliability when not.
 
 **ALWAYS OUTPUT PROMPTS IN ENGLISH.**
 
